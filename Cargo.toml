@@ -33,7 +33,7 @@ image =  { version = "0.25", features = ["rayon"], default-features = false }
 rand = "0.8"
 rand_distr = "0.4"
 rayon = "1.10"
-kiddo = "4.2"
+kiddo = { version = "4.2", default-features = false, features = [] }
 oklab = "1.0"
 
 # Bin dependencies
